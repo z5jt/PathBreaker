@@ -15,6 +15,7 @@
 
 ## Usage
 1-Provide the Input: The script will prompt you to enter two paths:
+
 **Accessible Path**: The path that you can normally access (e.g., /api/user).
 
 **Restricted Path**: The path that you want to test for unauthorized access (e.g., /admin/users, /internal-api).
