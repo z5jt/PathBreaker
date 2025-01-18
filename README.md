@@ -16,13 +16,14 @@
 ## Usage
 1-Provide the Input: The script will prompt you to enter two paths:
 **Accessible Path**: The path that you can normally access (e.g., /api/user).
+
 **Restricted Path**: The path that you want to test for unauthorized access (e.g., /admin/users, /internal-api).
 
 2-Payload Generation: The tool will output a list of payloads that you can use to test for path normalization vulnerabilities. These payloads help you determine if the web application fails to properly handle path traversal.
 
-##Acknowledgment
+## Acknowledgment
 This tool was designed based on the research by Orange Tsai, who presented groundbreaking work on path normalization vulnerabilities. The research highlights how improperly handled path parsers can lead to vulnerabilities that allow attackers to break out of intended directories. You can read more about it in the research paper:
 [Breaking Parser Logic: Take Your Path Normalization Off And Pop 0days Out - Black Hat 2018.](https://i.blackhat.com/us-18/Wed-August-8/us-18-Orange-Tsai-Breaking-Parser-Logic-Take-Your-Path-Normalization-Off-And-Pop-0days-Out-2.pdf)
 
-##Contributing
+## Contributing
 If you'd like to contribute to the project, feel free to fork the repository, submit issues, or create pull requests. Please follow the usual GitHub contribution guidelines.
